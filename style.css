@@ -1,0 +1,110 @@
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #6A82FB, #FC5C7D);
+}
+
+/* Quiz Container Styling */
+.quiz-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    transition: transform 0.3s ease;
+    border-top: 6px solid #03A9F4;
+}
+
+.quiz-container:hover {
+    transform: scale(1.03);
+}
+
+/* Title Styling */
+#title {
+    font-size: 2em;
+    text-align: center;
+    color: #03A9F4;
+    margin-bottom: 20px;
+}
+
+/* Question Title Styling */
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Option Styling */
+.option {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background-color: #F3F4F6;
+    transition: 0.3s ease;
+}
+
+.option:hover {
+    background-color: #e8f1fd;
+    border-color: #03A9F4;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button Styling */
+button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    background-color: #03A9F4;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0288D1;
+    transform: translateY(-2px);
+}
+
+#result-btn {
+    background-color: #FF5722;
+}
+
+#result-btn:hover {
+    background-color: #E64A19;
+}
+
+/* Result Text Styling */
+#result {
+    font-size: 1.5em;
+    margin-top: 30px;
+    color: #4CAF50;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Label Styling */
+label {
+    font-size: 1.2em;
+    color: #444;
+}
+
+/* General Styling for Form */
+form {
+    text-align: left;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 id="title">Brain Buster</h1>
+        <h2 id="question">Question will appear here</h2>
+        <form id="quiz-form">
+            <div class="option">
+                <input type="radio" name="answer" id="option1" class="answer" value="0">
+                <label for="option1" id="label1">Option 1</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="option2" class="answer" value="1">
+                <label for="option2" id="label2">Option 2</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="option3" class="answer" value="2">
+                <label for="option3" id="label3">Option 3</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="option4" class="answer" value="3">
+                <label for="option4" id="label4">Option 4</label>
+            </div>
+            <button type="button" id="next-btn" onclick="nextQuestion()">Next</button>
+        </form>
+        <button type="button" id="result-btn" onclick="showResult()" style="display: none;">Show Result</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
